@@ -1,0 +1,4 @@
+- name: Reset Repository
+  run: |
+    git reset --hard HEAD
+    git clean -fdx
